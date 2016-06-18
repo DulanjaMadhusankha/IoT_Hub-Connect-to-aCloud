@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>LandSlides prediction System - Log In</title>
+        <link href="styles/Site.css" rel="stylesheet" />
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="page">
+            <div id="header">
+                <p class="site-title">LandSlides prediction System</p>
+                <div id="login">
+                        <ul>
+                            <li><a href="register">Register</a></li>
+                            <li><a href="login">Login</a></li>
+                        </ul>
+                </div>
+                <ul id="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="About">About</a></li>
+                </ul>
+            </div>
+            <div id="main">
+                <div id="content">
+                    <h1>Log In</h1>
+                    
+<p>
+   Please enter your Email address and password below. If you don't have an account,
+   visit the <a href="register.html">registration page</a> and create one.
+</p>
+
+
+
+<form method="post" action="login">
+    <fieldset>
+        <legend>Log In to Your Account</legend>
+        <ol>
+            <li class="email">
+                <label for="email">Email address:</label>
+                <input type="text" id="email" name="email" value="" title="email"  />
+                
+            </li>
+            <li class="password">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" title="Password"  />
+                
+            </li>
+            <li class="remember-me">
+                <label class="checkbox" for="rememberMe">Remember Me?</label>
+                <input type="checkbox" id="rememberMe" name="rememberMe" value="true" title="Remember Me"  />
+            </li>
+        </ol>
+        <p class="form-actions">
+            <input type="submit" value="login" title="Login"/>
+        </p>
+        <p><a href="ForgotPassword">Did you forget your password?</a></p>
+    </fieldset>
+</form>
+                </div>
+                <div id="footer">
+                    &copy;LandSlides prediction System
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

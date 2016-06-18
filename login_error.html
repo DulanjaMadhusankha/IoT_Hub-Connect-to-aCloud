@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>IoT Hub Connected to a Cloud - Log In</title>
+        <link href="tyles/Site.css" rel="stylesheet" />
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="page">
+            <div id="header">
+                <p class="site-title">IoT Hub Connected to a Cloud</p>
+                <div id="login">
+                        <ul>
+                            <li><a href="register.html">Register</a></li>
+                        </ul>
+                </div>
+                <ul id="menu">
+                    <li><a href="home.html">Home</a></li>
+                </ul>
+            </div>
+            <div id="main">
+                <div id="content">
+                    <h1>Log In</h1>
+                    
+<p>
+   Please enter your Email address and password below. If you don't have an account,
+   visit the <a href="Register">registration page</a> and create one.
+</p>
+
+
+   <p class="message error">There was a problem with your login and/or errors exist in your form.</p>
+
+<form method="post" action="">
+    <fieldset>
+        <legend>Log In to Your Account</legend>
+        <ol>
+            <li class="email">
+                <label for="email">Email address:</label>
+                <input type="text" id="email" name="email" value="dulanja@gmail.com" title="email"  />
+                
+            </li>
+            <li class="password">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" title="Password"  />
+                
+            </li>
+            <li class="remember-me">
+                <label class="checkbox" for="rememberMe">Remember Me?</label>
+                <input type="checkbox" id="rememberMe" name="rememberMe" value="true" title="Remember Me"  />
+            </li>
+        </ol>
+        <p class="form-actions">
+            <input type="submit" value="login" title="Login"/>
+        </p>
+        <p><a href="ForgotPassword">Did you forget your password?</a></p>
+    </fieldset>
+</form>
+                </div>
+                <div id="footer">
+                    &copy; IoT Hub Connected to a Cloud
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
